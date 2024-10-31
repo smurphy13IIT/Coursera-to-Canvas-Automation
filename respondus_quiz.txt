@@ -1,0 +1,162 @@
+1)  What is the clock speed of a CPU, and how does it affect performance?
+
+*a. The clock speed of a CPU represents the number of instructions it can execute
+per second
+@ Correct. The clock speed, measured in GHz, determines how many cycles per
+second the CPU can execute, which affects its overall performance.
+
+b. The clock speed of a CPU determines the speed of the motherboard
+@ Incorrect. The motherboard speed is not directly determined by the CPU's clock
+speed.
+
+c. The clock speed of a CPU determines the frequency set by the motherboard
+manufacturer
+@ Incorrect. The CPU's clock speed is a characteristic of the CPU itself, not
+determined by the motherboard manufacturer.
+
+d. The clock speed of the CPU is calculated by the RAM speed
+@ Incorrect. CPU clock speed is independent of RAM speed.
+
+2)  What are the two main components of a CPU?
+
+a. FSB and registers
+@ Incorrect. The Front-Side Bus (FSB) and registers are not the main functional
+components of a CPU.
+
+*b. ALU and control unit
+@ Correct. The Arithmetic Logic Unit (ALU) and Control Unit are the two main
+components of a CPU.
+
+c. Frequency and cache
+@ Incorrect. Frequency and cache are important aspects of CPU performance but not
+its main components.
+
+d. Cache and FSB
+@ Incorrect. While important, cache and FSB are not the primary components of a
+CPU.
+
+3)  What is hyper-threading, and how does it affect CPU performance?
+
+a. It allows multiple registers to run instructions at once
+@ Incorrect. Hyper-threading is not about multiple registers running
+instructions.
+
+b. It accelerates shared cache
+@ Incorrect. Hyper-threading is not directly related to accelerating cache.
+
+*c. Allows a single physical CPU core to execute multiple threads simultaneously
+@ Correct. Hyper-threading technology allows a single CPU core to handle multiple
+threads, improving parallelism and potentially performance.
+
+d. Provisions threads for a single-core CPU to set priority to the CPU core
+@ Incorrect. It's not about setting priorities, but about parallel processing
+within a single core.
+
+4)  What are the two main connectors used to supply power to the motherboard?
+
+a. 12-pin and 18 pin
+@ Incorrect. These are not standard power connector sizes for motherboards.
+
+b. 8-pin and 32 pin
+@ Incorrect. 32-pin connectors are not standard for motherboard power.
+
+c. 4/8 pin and 30 pin
+@ Incorrect. 30-pin connectors are not standard for motherboard power.
+
+*d. 24-pin and 4/8 pin
+@ Correct. The 24-pin main power connector and the 4/8 pin CPU power connector
+are standard.
+
+5)  What is a power surge, and how does a power supply protect against it?
+
+a. A loss in power
+@ Incorrect. A power surge is an increase, not a decrease in power.
+
+*b. A sudden increase in power
+@ Correct. A power surge is a sudden, brief increase in voltage.
+
+c. A dip in power
+@ Incorrect. A dip in power is known as a brownout or sag, not a surge.
+
+d. A increase in power consumption
+@ Incorrect. A power surge is not about consumption but about an increase in
+supply voltage.
+
+6)  Which of the following is Ohm's Law formula?
+
+a. P = V x I
+@ Incorrect. This is the formula for electrical power, not Ohm's Law.
+
+b. I = P x V
+@ Incorrect. This formula is not correct for any standard electrical calculation.
+
+*c. V = I x R
+@ Correct. Ohm's Law states that the voltage (V) across a resistor is equal to
+the current (I) through it times its resistance (R).
+
+d. R = 1/r + 1/r
+@ Incorrect. This is not Ohm's Law; it looks more like a formula for parallel
+resistance, but it's not correctly written.
+
+7)  A circuit has a current of 2 amperes and a resistance of 6 ohms. What is the
+voltage across the circuit?
+
+a. 3 volts
+@ Incorrect. This is not the correct application of Ohm's Law.
+
+b. 10 volts
+@ Incorrect. This value does not match the correct calculation of voltage using
+Ohm's Law.
+
+c. 24 volts
+@ Incorrect. This value does not correctly follow from Ohm's Law.
+
+*d. 12 volts
+@ Correct. According to Ohm's Law (V = I x R), the voltage is 2 amperes x 6 ohms
+= 12 volts.
+
+8)  A circuit has a resistance of 8 ohms and a voltage of 24 volts. What is the
+current flowing through the circuit?
+
+a. 2 amps
+@ Incorrect. This value does not match the correct calculation using Ohm's Law.
+
+*b. 3 amps
+@ Correct. According to Ohm's Law (I = V / R), the current is 24 volts / 8 ohms =
+3 amps.
+
+c. 4 amps
+@ Incorrect. This value is not consistent with Ohm's Law.
+
+d. 1 amps
+@ Incorrect. This value does not correctly follow from Ohm's Law.
+
+9)  What is the difference between a 32-bit and a 64-bit CPU architecture?
+
+*a. The amount of memory it can handle
+@ Correct. The key difference is in the amount of memory they can address, with
+64-bit CPUs being able to address significantly more memory than 32-bit CPUs.
+
+b. The number of CPU cycles
+@ Incorrect. The difference is not in the number of CPU cycles.
+
+c. The number of controls signals it can handle
+@ Incorrect. The difference is not primarily in the number of control signals.
+
+d. The amount of concurrent transactions
+@ Incorrect. The primary difference is related to memory addressing, not
+concurrent transactions.
+
+10)  What is the main unit of measurement for power supply output?
+
+a. Volts
+@ Incorrect. Volts measure electrical potential, not power output.
+
+b. Amps
+@ Incorrect. Amps measure current, not power.
+
+*c. Wattage
+@ Correct. Wattage (watts) is the unit of measurement for power.
+
+d. Ohms
+@ Incorrect. Ohms measure resistance, not power.

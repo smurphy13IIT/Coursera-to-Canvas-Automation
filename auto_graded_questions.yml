@@ -1,0 +1,277 @@
+
+
+- variations: 
+    - typeName: multipleChoice
+      _id: o5V6Ig-VEe6jwBKJRc3t7Q
+      prompt: What is the clock speed of a CPU, and how does it affect performance?
+      shuffleOptions: false
+      options: 
+        - answer: |-
+              The clock speed of a CPU represents the number of instructions it can execute
+              per second
+          isCorrect: true
+          feedback: |-
+              Correct. The clock speed, measured in GHz, determines how many cycles per
+              second the CPU can execute, which affects its overall performance.
+          _id: '0.18224029162307742'
+        - answer: The clock speed of a CPU determines the speed of the motherboard
+          isCorrect: false
+          feedback: |-
+              Incorrect. The motherboard speed is not directly determined by the CPU's clock
+              speed.
+          _id: '0.4866889307054221'
+        - answer: |-
+              The clock speed of a CPU determines the frequency set by the motherboard
+              manufacturer
+          isCorrect: false
+          feedback: |-
+              Incorrect. The CPU's clock speed is a characteristic of the CPU itself, not
+              determined by the motherboard manufacturer.
+          _id: '0.945432918996854'
+        - answer: The clock speed of the CPU is calculated by the RAM speed
+          isCorrect: false
+          feedback: Incorrect. CPU clock speed is independent of RAM speed.
+          _id: '0.14481653089656055'
+
+- variations: 
+    - typeName: multipleChoice
+      _id: 1wMQXg-VEe62oQ5mUXSbKw
+      prompt: What are the two main components of a CPU?
+      shuffleOptions: false
+      options: 
+        - answer: FSB and registers
+          isCorrect: false
+          feedback: |-
+              Incorrect. The Front-Side Bus (FSB) and registers are not the main functional
+              components of a CPU.
+          _id: '0.8786614258972605'
+        - answer: ALU and control unit
+          isCorrect: true
+          feedback: |-
+              Correct. The Arithmetic Logic Unit (ALU) and Control Unit are the two main
+              components of a CPU.
+          _id: '0.3482262451327227'
+        - answer: Frequency and cache
+          isCorrect: false
+          feedback: |-
+              Incorrect. Frequency and cache are important aspects of CPU performance but not
+              its main components.
+          _id: '0.5023364728779636'
+        - answer: Cache and FSB
+          isCorrect: false
+          feedback: |-
+              Incorrect. While important, cache and FSB are not the primary components of a
+              CPU.
+          _id: '0.5601135585573829'
+
+- variations: 
+    - typeName: multipleChoice
+      _id: 8ghVPg-VEe6jwBKJRc3t7Q
+      prompt: What is hyper-threading, and how does it affect CPU performance?
+      shuffleOptions: false
+      options: 
+        - answer: It allows multiple registers to run instructions at once
+          isCorrect: false
+          feedback: |-
+              Incorrect. Hyper-threading is not about multiple registers running
+              instructions.
+          _id: '0.4379974332398249'
+        - answer: It accelerates shared cache
+          isCorrect: false
+          feedback: Incorrect. Hyper-threading is not directly related to accelerating cache.
+          _id: '0.6047690720273542'
+        - answer: Allows a single physical CPU core to execute multiple threads simultaneously
+          isCorrect: true
+          feedback: |-
+              Correct. Hyper-threading technology allows a single CPU core to handle multiple
+              threads, improving parallelism and potentially performance.
+          _id: '0.4002483160664436'
+        - answer: Provisions threads for a single-core CPU to set priority to the CPU core
+          isCorrect: false
+          feedback: |-
+              Incorrect. It's not about setting priorities, but about parallel processing
+              within a single core.
+          _id: '0.7490041183601226'
+
+- variations: 
+    - typeName: multipleChoice
+      _id: IMOuLg-WEe6HcwqQJV8YKw
+      prompt: What are the two main connectors used to supply power to the motherboard?
+      shuffleOptions: false
+      options: 
+        - answer: 12-pin and 18 pin
+          isCorrect: false
+          feedback: Incorrect. These are not standard power connector sizes for motherboards.
+          _id: '0.3493540950054186'
+        - answer: 8-pin and 32 pin
+          isCorrect: false
+          feedback: Incorrect. 32-pin connectors are not standard for motherboard power.
+          _id: '0.6659905666857964'
+        - answer: 4/8 pin and 30 pin
+          isCorrect: false
+          feedback: Incorrect. 30-pin connectors are not standard for motherboard power.
+          _id: '0.6202307083809147'
+        - answer: 24-pin and 4/8 pin
+          isCorrect: true
+          feedback: |-
+              Correct. The 24-pin main power connector and the 4/8 pin CPU power connector
+              are standard.
+          _id: '0.21080251017782814'
+
+- variations: 
+    - typeName: multipleChoice
+      _id: PgyhUQ-WEe6jwBKJRc3t7Q
+      prompt: What is a power surge, and how does a power supply protect against it?
+      shuffleOptions: false
+      options: 
+        - answer: A loss in power
+          isCorrect: false
+          feedback: Incorrect. A power surge is an increase, not a decrease in power.
+          _id: '0.17702273545671'
+        - answer: A sudden increase in power
+          isCorrect: true
+          feedback: Correct. A power surge is a sudden, brief increase in voltage.
+          _id: '0.5254348854399473'
+        - answer: A dip in power
+          isCorrect: false
+          feedback: Incorrect. A dip in power is known as a brownout or sag, not a surge.
+          _id: '0.3088985200007339'
+        - answer: A increase in power consumption
+          isCorrect: false
+          feedback: |-
+              Incorrect. A power surge is not about consumption but about an increase in
+              supply voltage.
+          _id: '0.24332215707384952'
+
+- variations: 
+    - typeName: multipleChoice
+      _id: X82HNA-WEe62oQ5mUXSbKw
+      prompt: Which of the following is Ohm's Law formula?
+      shuffleOptions: false
+      options: 
+        - answer: P = V x I
+          isCorrect: false
+          feedback: Incorrect. This is the formula for electrical power, not Ohm's Law.
+          _id: '0.6177880424761388'
+        - answer: I = P x V
+          isCorrect: false
+          feedback: Incorrect. This formula is not correct for any standard electrical calculation.
+          _id: '0.26650421871522156'
+        - answer: V = I x R
+          isCorrect: true
+          feedback: |-
+              Correct. Ohm's Law states that the voltage (V) across a resistor is equal to
+              the current (I) through it times its resistance (R).
+          _id: '0.9128570608702062'
+        - answer: R = 1/r + 1/r
+          isCorrect: false
+          feedback: |-
+              Incorrect. This is not Ohm's Law; it looks more like a formula for parallel
+              resistance, but it's not correctly written.
+          _id: '0.3419939650975261'
+
+- variations: 
+    - typeName: multipleChoice
+      _id: e4BJpA-WEe62oQ5mUXSbKw
+      prompt: |-
+          A circuit has a current of 2 amperes and a resistance of 6 ohms. What is the
+          voltage across the circuit?
+      shuffleOptions: false
+      options: 
+        - answer: 3 volts
+          isCorrect: false
+          feedback: Incorrect. This is not the correct application of Ohm's Law.
+          _id: '0.9139610902001958'
+        - answer: 10 volts
+          isCorrect: false
+          feedback: |-
+              Incorrect. This value does not match the correct calculation of voltage using
+              Ohm's Law.
+          _id: '0.6495318237962391'
+        - answer: 24 volts
+          isCorrect: false
+          feedback: Incorrect. This value does not correctly follow from Ohm's Law.
+          _id: '0.6530090295616438'
+        - answer: 12 volts
+          isCorrect: true
+          feedback: |-
+              Correct. According to Ohm's Law (V = I x R), the voltage is 2 amperes x 6 ohms
+              = 12 volts.
+          _id: '0.552334575650135'
+
+- variations: 
+    - typeName: multipleChoice
+      _id: mQ_h1Q-WEe6jwBKJRc3t7Q
+      prompt: |-
+          A circuit has a resistance of 8 ohms and a voltage of 24 volts. What is the
+          current flowing through the circuit?
+      shuffleOptions: false
+      options: 
+        - answer: 2 amps
+          isCorrect: false
+          feedback: Incorrect. This value does not match the correct calculation using Ohm's Law.
+          _id: '0.49129145297261023'
+        - answer: 3 amps
+          isCorrect: true
+          feedback: |-
+              Correct. According to Ohm's Law (I = V / R), the current is 24 volts / 8 ohms =
+              3 amps.
+          _id: '0.8722668130921867'
+        - answer: 4 amps
+          isCorrect: false
+          feedback: Incorrect. This value is not consistent with Ohm's Law.
+          _id: '0.5731541817868211'
+        - answer: 1 amps
+          isCorrect: false
+          feedback: Incorrect. This value does not correctly follow from Ohm's Law.
+          _id: '0.929276913467979'
+
+- variations: 
+    - typeName: multipleChoice
+      _id: uwYJsw-WEe6HcwqQJV8YKw
+      prompt: What is the difference between a 32-bit and a 64-bit CPU architecture?
+      shuffleOptions: false
+      options: 
+        - answer: The amount of memory it can handle
+          isCorrect: true
+          feedback: |-
+              Correct. The key difference is in the amount of memory they can address, with
+              64-bit CPUs being able to address significantly more memory than 32-bit CPUs.
+          _id: '0.8449457385772163'
+        - answer: The number of CPU cycles
+          isCorrect: false
+          feedback: Incorrect. The difference is not in the number of CPU cycles.
+          _id: '0.5246303883379557'
+        - answer: The number of controls signals it can handle
+          isCorrect: false
+          feedback: Incorrect. The difference is not primarily in the number of control signals.
+          _id: '0.11361255157196881'
+        - answer: The amount of concurrent transactions
+          isCorrect: false
+          feedback: |-
+              Incorrect. The primary difference is related to memory addressing, not
+              concurrent transactions.
+          _id: '0.712065129297323'
+
+- variations: 
+    - typeName: multipleChoice
+      _id: 1ZGwjQ-WEe6jwBKJRc3t7Q
+      prompt: What is the main unit of measurement for power supply output?
+      shuffleOptions: false
+      options: 
+        - answer: Volts
+          isCorrect: false
+          feedback: Incorrect. Volts measure electrical potential, not power output.
+          _id: '0.0006154972417808935'
+        - answer: Amps
+          isCorrect: false
+          feedback: Incorrect. Amps measure current, not power.
+          _id: '0.40334857346951924'
+        - answer: Wattage
+          isCorrect: true
+          feedback: Correct. Wattage (watts) is the unit of measurement for power.
+          _id: '0.6467973413466446'
+        - answer: Ohms
+          isCorrect: false
+          feedback: Incorrect. Ohms measure resistance, not power.
+          _id: '0.4460751574615245'
